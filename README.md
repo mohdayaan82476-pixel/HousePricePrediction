@@ -1,2 +1,31 @@
-# HousePricePrediction
-Machine Learning project that predicts house prices using Linear Regression and Random Forest Regression. Includes data preprocessing, exploratory data analysis (EDA), feature engineering, model evaluation, visualization, and feature importance analysis using Python, Pandas, Scikit-learn, Matplotlib, and Seaborn.
+# House Price Prediction
+
+This project predicts house prices using machine learning techniques. The dataset was cleaned, preprocessed, and analyzed to identify the key factors influencing house prices.
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- Matplotlib
+- Seaborn
+
+## Models Used
+- Linear Regression
+- Random Forest Regressor
+
+## Evaluation Metrics
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+## Key Findings
+- Area was the most influential feature affecting house prices.
+- Bathrooms, air conditioning, parking, and number of stories also had significant impact.
+- Linear Regression achieved better performance than Random Forest on this dataset.
+
+## Project Structure
+- analysis.ipynb
+- Housing.csv
+- summary.pdf
+- charts/
